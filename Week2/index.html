@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marks Calculator</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        input {
+            width: 80px;
+            padding: 8px;
+            margin: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        #total, #result {
+            margin-top: 20px;
+            font-size: 22px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Student Marks Calculator</h2>
+
+    <input type="number" id="m1" placeholder="Mark 1">
+    <input type="number" id="m2" placeholder="Mark 2">
+    <input type="number" id="m3" placeholder="Mark 3">
+    <input type="number" id="m4" placeholder="Mark 4"><br>
+
+    <input type="number" id="m5" placeholder="Mark 5">
+    <input type="number" id="m6" placeholder="Mark 6">
+    <input type="number" id="m7" placeholder="Mark 7">
+    <input type="number" id="m8" placeholder="Mark 8"><br>
+
+    <button onclick="calculateResult()">Submit</button>
+
+    <div id="total"></div>
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
