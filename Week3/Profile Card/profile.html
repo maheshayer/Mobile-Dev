@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>jQuery Profile Card</title>
+
+  <link rel="stylesheet" href="profile.css">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+  <div id="profile-card">
+
+    <img
+      id="profile-photo"
+      src="rabin.jpg"
+      alt="Profile Photo"
+    >
+
+    <h1 id="student-name">Rabin Ayer</h1>
+
+    <p id="student-bio">
+      <b>Student Bio:</b>
+      I love coding, designing websites, and learning AI/ML.
+    </p>
+
+    <input
+      type="text"
+      id="nickname-input"
+      placeholder="Enter nickname"
+    >
+
+    <div id="skills-list">
+
+      <h3>Skills</h3>
+
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div id="output">Output Area</div>
+
+  <div class="buttons">
+
+    <h2>1. GET & SET</h2>
+
+    <button id="show-name">Show Name</button>
+
+    <button id="change-name">Change Name</button>
+
+    <button id="show-bio">Show Bio</button>
+
+    <button id="get-input">Get Input</button>
+
+    <button id="set-input">Set Input</button>
+
+
+    <h2>2. CSS CLASSES</h2>
+
+    <button id="highlight-card">Highlight Card</button>
+
+    <button id="remove-highlight">Remove Highlight</button>
+
+    <button id="toggle-dark">Toggle Dark Mode</button>
+
+    <button id="toggle-rounded">Toggle Rounded</button>
+
+
+    <h2>3. CSS METHOD</h2>
+
+    <button id="red-bg">Red Background</button>
+
+    <button id="reset-bg">Reset Background</button>
+
+
+    <h2>4. HIDE & SHOW</h2>
+
+    <button id="hide-photo">Hide Photo</button>
+
+    <button id="show-photo">Show Photo</button>
+
+    <button id="toggle-bio">Toggle Bio</button>
+
+
+    <h2>5. FADE</h2>
+
+    <button id="fade-out">Fade Out Card</button>
+
+    <button id="fade-in">Fade In Card</button>
+
+    <button id="fade-half">Fade to 50%</button>
+
+    <button id="fade-normal">Normal Opacity</button>
+
+
+    <h2>6. SLIDE</h2>
+
+    <button id="slide-up">Slide Up Skills</button>
+
+    <button id="slide-down">Slide Down Skills</button>
+
+    <button id="slide-toggle">Slide Toggle Skills</button>
+
+
+    <h2>7. ANIMATE</h2>
+
+    <button id="animate-card">Animate Card</button>
+
+
+    <h2>8. EVENTS</h2>
+
+    <p>
+      Hover over the image and type inside the input box
+      to see event outputs.
+    </p>
+
+  </div>
+
+  <script src="profile.js"></script>
+
+</body>
+</html>
