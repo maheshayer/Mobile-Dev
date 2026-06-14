@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firebase Student CRUD</title>
+  </head>
+  <body>
+    <h1>Student Information System</h1>
+
+    <h2>Add Student</h2>
+
+    <input type="text" id="student-id" placeholder="Student ID" /><br /><br />
+    <input type="text" id="first-name" placeholder="First Name" /><br /><br />
+    <input type="text" id="last-name" placeholder="Last Name" /><br /><br />
+    <input type="email" id="email" placeholder="Email" /><br /><br />
+    <input type="text" id="phone" placeholder="Phone" /><br /><br />
+    <input type="text" id="address" placeholder="Address" /><br /><br />
+    <input type="text" id="gender" placeholder="Gender" /><br /><br />
+    <input type="number" id="age" placeholder="Age" /><br /><br />
+    <input type="text" id="course" placeholder="Course" /><br /><br />
+    <input type="text" id="semester" placeholder="Semester" /><br /><br />
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <hr />
+
+    <h2>Read Student</h2>
+
+    <input type="text" id="read-id" placeholder="Student ID" />
+    <button onclick="readStudent()">Find Student</button>
+
+    <pre id="read-result"></pre>
+
+    <hr />
+
+    <h2>Update Student</h2>
+
+    <input type="text" id="update-id" placeholder="Student ID" /><br /><br />
+
+    <input
+      type="text"
+      id="update-first-name"
+      placeholder="First Name"
+    /><br /><br />
+    <input
+      type="text"
+      id="update-last-name"
+      placeholder="Last Name"
+    /><br /><br />
+    <input type="email" id="update-email" placeholder="Email" /><br /><br />
+    <input type="text" id="update-phone" placeholder="Phone" /><br /><br />
+    <input type="text" id="update-address" placeholder="Address" /><br /><br />
+    <input type="text" id="update-gender" placeholder="Gender" /><br /><br />
+    <input type="number" id="update-age" placeholder="Age" /><br /><br />
+    <input type="text" id="update-course" placeholder="Course" /><br /><br />
+    <input
+      type="text"
+      id="update-semester"
+      placeholder="Semester"
+    /><br /><br />
+
+    <button onclick="updateStudent()">Update Student</button>
+
+    <hr />
+
+    <h2>Delete Student</h2>
+
+    <input type="text" id="delete-id" placeholder="Student ID" />
+
+    <button onclick="deleteStudent()">Delete Student</button>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
