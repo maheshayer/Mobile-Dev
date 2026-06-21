@@ -1,0 +1,25 @@
+{
+  "buses": {
+    "bus1": {
+      "busNo": "SAJHA-101",
+      "route": "Ratnapark-Koteshwor",
+      "currentLocation": "Putalisadak",
+      "nextStop": "New Baneshwor",
+      "arrivalTime": "5 mins"
+    },
+    "bus2": {
+      "busNo": "SAJHA-102",
+      "route": "Ratnapark-Godawari",
+      "currentLocation": "Maitighar",
+      "nextStop": "Pulchowk",
+      "arrivalTime": "10 mins"
+    },
+    "bus3": {
+      "busNo": "SAJHA-103",
+      "route": "Ratnapark-Budhanilkantha",
+      "currentLocation": "Teaching Hospital",
+      "nextStop": "Maharajgunj",
+      "arrivalTime": "12 mins"
+    }
+  }
+}
